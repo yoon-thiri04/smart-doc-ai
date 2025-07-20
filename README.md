@@ -1,4 +1,4 @@
-# 📄 SmartDocAI
+# SmartDocAI 🤖📄
 
 **SmartDocAI** is an intelligent document classification system that allows users to upload PDF, DOCX, or TXT files. It analyzes the content using traditional ML models and LLMs to:
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Key Features
+## 🤖 Key Features
 
 - Upload `.pdf`, `.docx`, or `.txt` files
 - Classify documents using **Logistic Regression**, **SVM**, and **Random Forest**
