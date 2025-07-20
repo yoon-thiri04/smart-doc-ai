@@ -1,4 +1,4 @@
-# SmartDocAI 🤖📄
+# SmartDocAI 🤖📑
 
 **SmartDocAI** is an intelligent document classification system that allows users to upload PDF, DOCX, or TXT files. It analyzes the content using traditional ML models and LLMs to:
 
@@ -8,10 +8,10 @@
 
 ---
 
-## 📝 Key Features
+## 📍 Key Features
 
-- Upload `.pdf`, `.docx`, or `.txt` files
-- Classify documents using **Logistic Regression**, **SVM**, and **Random Forest**
+- Upload `.pdf`, `.docx`, or `.txt` files 📑
+- Classify documents using **Logistic Regression**, **SVM**, and **Random Forest** 
 - Display all predictions with confidence scores
 - Highlight the **best prediction**
 - Use **LangChain + Together AI (LLaMA-3)** to:
@@ -21,9 +21,8 @@
 - Let the user:
   - Choose which model’s prediction to use
   - Adjust LLM generation **temperature**
-  - **Download** a full PDF report of predictions and explanations
-    
-- **Dataset:** [`bbc-text.csv`](https://www.kaggle.com/datasets/moazeldsokyx/bbc-news)
+  - **📩 Download** a full PDF report of predictions and explanations 
+- **🔗 Dataset:** [`bbc-text.csv`](https://www.kaggle.com/datasets/moazeldsokyx/bbc-news) 
 
 ---
 
