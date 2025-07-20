@@ -25,24 +25,6 @@
 
 ---
 
-## 🧠 Models & Training
-
-- **Dataset:** [`bbc-text.csv`](https://www.kaggle.com/datasets/moazeldsokyx/bbc-news)
-- **Models trained:**
-  - Logistic Regression
-  - Support Vector Machine (SVM)
-  - Random Forest
-- **Vectorizer:** TF-IDF (Saved with `joblib`)
-- **Training Script:** [`train_models.ipynb`](notebooks/train_models.ipynb)
-  - Trains all 3 models
-  - Saves models and vectorizer using `joblib.dump()`
-  - Generates:
-    - Accuracy
-    - Classification report
-    - Confusion matrix (with graphs)
-
----
-
 
 ### 🔐 Set Your Together.ai API Key 
 
@@ -56,13 +38,6 @@ And inside it, add:
 
 ```toml
 TOGETHER_API_KEY = "your_together_api_key"
-```
-
----
-
-### Run the Streamlit app
-```
-streamlit run app.py
 ```
 
 ---
@@ -100,27 +75,6 @@ SmartDocAI/
 │   └── classification_results.csv # Summary of model evaluation results
 └──
 ```
-
----
-
-## 💼 Tech Stack
-
-- **Scikit-learn** (ML models, TF-IDF)
-- **LangChain** (LLM orchestration)
-- **Together AI API** (LLaMA-3 model for natural language generation)
-- **Streamlit** (Web app interface)
-- **FPDF** (Report generation)
-
----
-
-
-## 📌 Future Enhancements
-
-- Add support for more file types (e.g., HTML, JSON)
-- Enable summarization of documents
-- Support multi-language content
-- Deploy the app publicly
-- Add user authentication
 
 ---
 
