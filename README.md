@@ -22,6 +22,8 @@
   - Choose which model’s prediction to use
   - Adjust LLM generation **temperature**
   - **Download** a full PDF report of predictions and explanations
+    
+- **Dataset:** [`bbc-text.csv`](https://www.kaggle.com/datasets/moazeldsokyx/bbc-news)
 
 ---
 
@@ -50,16 +52,15 @@ SmartDocAI/
 ├── .streamlit/
 │   └── secrets.toml               # Stores Your Together.ai API key 
 │
-├── app.py                         # Main Streamlit app
-├── requirements.txt               # Project dependencies
-├── .gitignore                     # Files/folders to exclude from version control
-├── .env                           # Optional environment variables (ignored by Git)
+├── app.py                         
+├── requirements.txt                                   
+├── .env                           
 │
-├── data/                          # Sample and training data
-│   ├── bbc-text.csv               # Dataset for training
-│   ├── sample_doc.docx            # Sample Word document for testing
-│   ├── sample_pdf.pdf             # Sample PDF document for testing
-│   └── sample.txt                 # Sample text file for testing
+├── data/                          
+│   ├── bbc-text.csv               
+│   ├── sample_doc.docx            
+│   ├── sample_pdf.pdf             
+│   └── sample.txt                 
 │
 ├── models/                        # Saved machine learning models
 │   ├── logistic_regression.pkl
@@ -72,9 +73,10 @@ SmartDocAI/
 │   └── tfidf_vectorizer.joblib    # Saved TF-IDF vectorizer
 │
 ├── reports/                      
-│   └── classification_results.csv # Summary of model evaluation results
+│   └── classification_results.csv 
 └──
 ```
+
 
 ---
 
