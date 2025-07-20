@@ -1,4 +1,4 @@
-# 📄 SmartDocAI: Classify, Title, Justify
+# 📄 SmartDocAI
 
 **SmartDocAI** is an intelligent document classification system that allows users to upload PDF, DOCX, or TXT files. It analyzes the content using traditional ML models and LLMs to:
 
