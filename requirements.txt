@@ -1,0 +1,15 @@
+streamlit
+joblib
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+fpdf
+langchain
+tqdm
+openai
+PyPDF2
+python-docx
+pillow
+PyMuPDF
