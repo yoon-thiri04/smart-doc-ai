@@ -8,7 +8,7 @@
 
 ---
 
-## 🤖 Key Features
+## 📝 Key Features
 
 - Upload `.pdf`, `.docx`, or `.txt` files
 - Classify documents using **Logistic Regression**, **SVM**, and **Random Forest**
@@ -76,7 +76,6 @@ SmartDocAI/
 │   └── classification_results.csv 
 └──
 ```
-
 
 ---
 
