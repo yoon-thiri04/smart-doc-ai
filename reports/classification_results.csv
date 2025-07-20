@@ -1,0 +1,4 @@
+Model,Predicted Label,Confidence
+Logistic Regression,business,0.5392
+SVM,business,0.8830
+Random Forest,business,0.4600
