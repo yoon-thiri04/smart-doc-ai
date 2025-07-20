@@ -60,15 +60,46 @@ TOGETHER_API_KEY = "your_together_api_key"
 
 ---
 
+### Run the Streamlit app
+```
+streamlit run app.py
+```
+
+---
 
 ## 📁 Repository Structure
 
-- `train_models.ipynb`: Train and evaluate models, save artifacts
-- `test_predictions.ipynb`: Test new documents, integrate LLM, generate explanations
-- `app.py`: Streamlit interface for end-to-end functionality
-- `utils/`: Utility scripts for text cleaning, file reading, etc.
-- `models/`: Saved model files and vectorizer
-- `static/`: Sample test documents
+```
+SmartDocAI/
+│
+├── .streamlit/
+│   └── secrets.toml               # Stores Your Together.ai API key 
+│
+├── app.py                         # Main Streamlit app
+├── requirements.txt               # Project dependencies
+├── .gitignore                     # Files/folders to exclude from version control
+├── .env                           # Optional environment variables (ignored by Git)
+│
+├── data/                          # Sample and training data
+│   ├── bbc-text.csv               # Dataset for training
+│   ├── sample_doc.docx            # Sample Word document for testing
+│   ├── sample_pdf.pdf             # Sample PDF document for testing
+│   └── sample.txt                 # Sample text file for testing
+│
+├── models/                        # Saved machine learning models
+│   ├── logistic_regression.pkl
+│   ├── random_forest.pkl
+│   └── svm.pkl
+│
+├── notebooks/                    
+│   ├── train_models.ipynb         # Training 3 models and saving them
+│   ├── test_predictions.ipynb     # Test and predict on uploaded files
+│   └── tfidf_vectorizer.joblib    # Saved TF-IDF vectorizer
+│
+├── reports/                      
+│   └── classification_results.csv # Summary of model evaluation results
+└──
+```
 
 ---
 
@@ -79,15 +110,9 @@ TOGETHER_API_KEY = "your_together_api_key"
 - **Together AI API** (LLaMA-3 model for natural language generation)
 - **Streamlit** (Web app interface)
 - **FPDF** (Report generation)
-- **Pandas, NumPy, Matplotlib, Seaborn** (Data handling and visualization)
 
 ---
 
-## 🔐 API Setup
-
-To use LLM features, you’ll need a Together.ai API key. Store it securely in your environment.
-
----
 
 ## 📌 Future Enhancements
 
