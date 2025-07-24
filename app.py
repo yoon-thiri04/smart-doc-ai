@@ -24,7 +24,7 @@ st.set_page_config(page_title="Smart Document Analysis", layout="wide")
 
 def clean_text(text):
     text = text.lower()
-    text = re.sub(r"[^a-zA-Z9-9\s]","",text)
+    text = re.sub(r"[^a-zA-Z0-9\s]","",text)
 
     return text
 
